@@ -7,6 +7,7 @@ import { LeftSection } from './HeroStyles';
 const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
+      {/* <img src={profile.jpg}/> */}
       <SectionTitle main center>
         Hello <br/>
         Welcome to my portfolio!
