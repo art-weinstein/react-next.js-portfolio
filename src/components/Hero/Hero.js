@@ -5,9 +5,19 @@ import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
 const Hero = (props) => (
-  <div>
-    Hero
-  </div>
+  <Section row nopadding>
+    <LeftSection>
+      <SectionTitle main center>
+        Hello <br/>
+        Welcome to my portfolio!
+      </SectionTitle>
+      <SectionText>
+        The purpose of this project is to learn and develop my skills in React. I am working on sprucing up my portfolio 
+        and furthing my progress in software development. 
+      </SectionText>
+      <Button onClick={() => window.location="https://github.com/art-weinstein"}>Check out my GitHub!</Button>
+    </LeftSection>
+  </Section>
 );
 
 export default Hero;
