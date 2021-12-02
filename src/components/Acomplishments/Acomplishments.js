@@ -1,19 +1,21 @@
-import React from 'react';
+//work in progress
 
-import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
-import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
+// import React from 'react';
 
-const data = [
-  { number: 20, text: 'Open Source Projects'},
-  { number: 1000, text: 'Students', },
-  { number: 1900, text: 'Github Followers', },
-  { number: 5000, text: 'Github Stars', }
-];
+// import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
+// import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
 
-const Acomplishments = () => (
-  <div>
-    Acomplishments
-  </div>
-);
+// const data = [
+//   { number: 20, text: 'example'},
+//   { number: 1000, text: 'example', },
+//   { number: 1900, text: 'example', },
+//   { number: 5000, text: 'example', }
+// ];
 
-export default Acomplishments;
+// const Acomplishments = () => (
+//   <div>
+//     Acomplishments
+//   </div>
+// );
+
+// export default Acomplishments;
